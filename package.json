@@ -1,0 +1,25 @@
+{
+  "name": "fibonacciapi",
+  "version": "1.0.0",
+  "description": "FibonacciAPI",
+  "main": "app.js",
+  "engines": {
+    "node": "14.13.0",
+    "npm": "6.14.18"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Veronica Oviedo",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/node": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1"
+  }
+}
